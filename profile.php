@@ -17,7 +17,7 @@ $data = $_SESSION['data'] ?? [] ;
 		<img class="hotel_img" src="img/name_htl.png">
 		<nav>
 			<ul class="nav_links">
-				<li><a href="home.php">Home</a></li>
+				<li><a href="index.php">Home</a></li>
 				<li><a href="register.php">Book Now</a></li>
 				<li><a href="login.php">Login</a></li>
 				<li><a href="profile.php">Profile</a></li>
@@ -32,7 +32,7 @@ $data = $_SESSION['data'] ?? [] ;
 		<?php 
 		if($data){
 			extract($data) ;
-			echo "<h2 class='h2content'>
+			echo "<h2 class='headercontent'>
 			Name: $name <br><br>
 			Age: $age <br><br>
 			Contact number: $contact <br><br>
@@ -40,7 +40,8 @@ $data = $_SESSION['data'] ?? [] ;
 			No. of people: $peoples 
 			</h2>
 			<br><br><br><br>
-			<h1 class='h2content'>Visit our hotel for further Process.</h1>";}
+			<h1 class='headercontent'>Visit our hotel for further Process.</h1>";
+		}
 		else{
 			echo "No data yet." ;
 		}

@@ -22,7 +22,7 @@ if(isset($_POST['register'])){
 		<img class="hotel_img" src="img/name_htl.png">
 		<nav>
 			<ul class="nav_links">
-				<li><a href="home.php">Home</a></li>
+				<li><a href="index.php">Home</a></li>
 				<li><a href="register.php">Book Now</a></li>
 				<li><a href="login.php">Login</a></li>
 				<li><a href="profile.php">Profile</a></li>
@@ -31,7 +31,7 @@ if(isset($_POST['register'])){
 		<a class="contact" href="contact.php"><button>Contact</button></a>
 	</header>
 
-	<form action = "Register.php" method="POST">
+	<form action = "register.php" method="POST">
 
 	<p class="rcontent">
 	

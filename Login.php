@@ -29,7 +29,7 @@ if(isset($_POST['login'])){
 		<img class="hotel_img" src="img/name_htl.png">
 		<nav>
 			<ul class="nav_links">
-				<li><a href="home.php">Home</a></li>
+				<li><a href="index.php">Home</a></li>
 				<li><a href="register.php">Book Now</a></li>
 				<li><a href="login.php">Login</a></li>
 				<li><a href="profile.php">Profile</a></li>
@@ -46,7 +46,7 @@ if(isset($_POST['login'])){
 	<!--<form>-->
 	<p class="lcontent">
 	Fill up the registered data to log in.<br><br><br>
-	<form action = "Login.php" method= "POST">
+	<form action = "login.php" method= "POST">
 	<p class="lcontent">
 	Username:<spam class="rspace" style="margin-left: 25px;"></spam><input name='log_name' class="reginput" type="text" placeholder="Login name"><br>
 	Password:<spam class="rspace" style="margin-left: 30px;"></spam><input name='password' class="reginput" type="password" placeholder="Login Password"><br><br>
